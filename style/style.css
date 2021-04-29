@@ -1,0 +1,77 @@
+header{
+    background-color: darkslategray;
+    height: 200px;
+}
+
+#text-header {
+    text-align: center;
+    color: white;
+}
+
+body {
+    font-family: Verdana;
+    width: 98%;
+    background-color: #f2f2f2;
+    color: black;
+}
+
+nav{
+    padding:0;
+    border: 10px double black;
+    background-color: lightgrey;
+}
+
+section.AGN {
+    
+    overflow: auto;
+}
+
+footer{
+    clear: both;
+    border: 1px double black;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    background-color: lightgray;
+    text-align: center;
+}
+
+nav ul {
+    text-align: center;
+    font-size: 1.2em;
+}
+
+
+footer ul li {
+    list-style-type: none;
+    color: green;
+    display: inline;
+    padding: 15px;
+}
+
+.showimages {
+    float: left;
+    width: 30%;
+    border: 2px solid ;
+    margin: 0 10px 0 10px;
+    
+}
+
+.maptext {
+    
+    column-count: 2;
+    column-rule: 2px solid darkgrey;
+    column-gap: 50px;
+    padding: 2px;
+}
+
+.poll{
+    padding:0;
+    border: 10px double black;
+    background-color: lightgray;
+    color: black;
+    text-align: center;
+    
+}
